@@ -16,6 +16,7 @@
 # Easy fix for this issue.  Open mysql and run the following command: 
 # set @@global.show_compatibility_56=ON;
 
+mysql -u root -pgm.build -e "set @@global.show_compatibility_56=ON;"
 
 RESOURCE="SCRIPT"
 #LOG="/home/gmbuild/ensembl_data/current_build.log"
