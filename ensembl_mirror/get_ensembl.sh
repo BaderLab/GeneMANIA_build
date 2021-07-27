@@ -23,9 +23,15 @@ cd ${dir_name}
 # **verify the species is available at ftp.ensembl.org/pub/current_mysql**
 SPECIES='homo_sapiens_core\|caenorhabditis_elegans_core\|danio_rerio_core\|drosophila_melanogaster_core\|mus_musculus_core\|rattus_norvegicus_core\|saccharomyces_cerevisiae_core'
 
+# Change with the May 2021 release of Ensembl the ftp_site and rsync site are different
+# see here - https://useast.ensembl.org/info/data/ftp/rsync.html
+# need to add "ensembl" after the domain name of the address for RSYNC
+FTP_SITE='ftp.ensembl.org/pub/current_mysql/'
+RSYNC_SITE='ftp.ensembl.org/ensembl/pub/current_mysql/'
+
 #get the latest versions of the mysql dumps from the current_mysql directory
 # on the ensembl ftp site - store results in an array
-ENSEMBL_DBS=( $(curl -l -s  ftp://ftp.ensembl.org/pub/current_mysql/ --user anonymous:anonymous | grep ${SPECIES}) )
+ENSEMBL_DBS=( $(curl -l -s  ftp://${FTP_SITE} --user anonymous:anonymous | grep ${SPECIES}) )
 
 for i in "${ENSEMBL_DBS[@]}" ; 
 do 
@@ -36,7 +42,7 @@ do
 	RC=1 
 	while [[ $RC -ne 0 ]] # if rsync is not successful (code 0), try again
 	do
-        	rsync -av rsync://ftp.ensembl.org/ensembl/pub/current_mysql/${i} .
+        	rsync -av rsync://${RSYNC_SITE}${i} .
 		RC=$? # saves the return code
 		
 		# print DONE or ERROR

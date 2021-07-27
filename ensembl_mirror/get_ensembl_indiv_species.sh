@@ -22,31 +22,36 @@ cd ${dir_name}
 #
 # **verify the species is available at one of the ftp species sites indicated below**
 # Depending on the genus the species data might located in different locations
-SPECIES='tetrahymena_thermophila_core'
+SPECIES='saccharomyces_cerevisiae_core'
 
 #get the latest versions of the mysql dumps from the current_mysql directory
 # on the ensembl ftp site - store results in an array
 # for most eukaryotes you will find the species here-
-#FTP_SITE='ftp.ensembl.org/pub/current_mysql/'
 
+# Change with the May 2021 release of Ensembl the ftp_site and rsync site are different
+# see here - https://useast.ensembl.org/info/data/ftp/rsync.html
+# need to add "ensembl" after the domain name of the address for RSYNC
+FTP_SITE='ftp.ensembl.org/pub/current_mysql/'
+
+RSYNC_SITE='ftp.ensembl.org/ensembl/pub/current_mysql/'
 #FTP_SITE='ftp.ensemblgenomes.org/pub/current/plants/mysql/' 
 #FTP_SITE='ftp.ensemblgenomes.org/pub/current/bacteria/mysql/'
 #FTP_SITE='ftp.ensemblgenomes.org/pub/current/fungi/mysql/'
 #FTP_SITE='ftp.ensemblgenomes.org/pub/current/metazoa/mysql/'
 
-FTP_SITE='ftp.ebi.ac.uk/ensemblgenomes/pub/current/protists/mysql/' 
+#FTP_SITE='ftp.ebi.ac.uk/ensemblgenomes/pub/current/protists/mysql/' 
 #FTP_SITE='ftp.ensemblgenomes.org/pub/current/protists/mysql/'
 
 ENSEMBL_DBS=( $(curl -l -s  ftp://${FTP_SITE} --user anonymous:anonymous | grep ${SPECIES}) )
 
 for i in "${ENSEMBL_DBS[@]}" ; 
 do 
-	printf "\n==> Rsync ${i} FROM ${FTP_SITE}:\n"
+	printf "\n==> Rsync ${i} FROM ${RSYNC_SITE}:\n"
 
 	RC=1 
 	while [[ $RC -ne 0 ]] # if rsync is not successful (code 0), try again
 	do
-		rsync -av rsync://${FTP_SITE}${i} .
+		rsync -av rsync://${RSYNC_SITE}${i} .
 		RC=$? # saves the return code
 		
 		# print DONE or ERROR
