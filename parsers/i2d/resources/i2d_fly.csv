@@ -1,0 +1,58 @@
+Fly,Dataset,Number of interactions in dataset,Datatype,Network Name,PubMed ID for tagging purposes,Comment,Note
+
+,BIND_Fly,16647,source,I2D_BIND_Fly_Source
+,FlyCellCycle,1592,source,I2D_Stanyon-Finley-2004-CellCycle_Fly_Source
+,FlyEmbryo,1707,source,I2D_Formstecher-Daviet-2005-Embryo_Fly_Source
+,FlyHead,197,source,I2D_Formstecher-Daviet-2005-Head_Fly_Source
+,FlyHigh,4669,source,I2D_Giot-Rothbert-2003-High_Fly_Source
+,FlyLow,15165,source,I2D_Giot-Rothbert-2003-Low_Fly_Source
+,IntAct_Fly,1278,source,I2D_IntAct_Fly_Source
+,MINT_Fly,549,source,I2D_MINT_Fly_Source
+
+,BIND,1112,predicted,I2D_BIND_Human2Fly,,I2D predictions of protein protein interactions for Drosophila melanogaster using BIND Homo sapiens data
+,BIND_Mouse,187,predicted,I2D_BIND_Mouse2Fly,,I2D predictions of protein protein interactions for Drosophila melanogaster using BIND Mus musculus data
+,BIND_Rat,105,predicted,I2D_BIND_Rat2Fly,,I2D predictions of protein protein interactions for Drosophila melanogaster using BIND Rattus norvegicus data
+,BIND_Worm,595,predicted,I2D_BIND_Worm2Fly,,I2D predictions of protein protein interactions for Drosophila melanogaster using BIND Caenorhabditis elegans data
+,BIND_Yeast,1262,predicted,I2D_BIND_Yeast2Fly,,I2D predictions of protein protein interactions for Drosophila melanogaster using BIND Saccharomyces cerevisiae data
+,BioGRID_Yeast,2169,predicted,I2D_BioGRID_Yeast2Fly,,I2D predictions of protein protein interactions for Saccharomyces cerevisiae using BioGRID Homo sapiens data
+,CE_DATA,71,predicted,I2D_Li-Vidal-2004_CE_DATA_Worm2Fly,14704431,I2D predictions of protein protein interactions for Drosophila melanogaster using Li-Vidal-2004 Caenorhabditis elegans data
+,CORE_1,80,predicted,I2D_Li-Vidal-2004_CORE_1_Worm2Fly,14704431,I2D predictions of protein protein interactions for Drosophila melanogaster using Li-Vidal-2004 Caenorhabditis elegans data
+,CORE_2,90,predicted,I2D_Li-Vidal-2004_CORE_2_Worm2Fly,14704431,I2D predictions of protein protein interactions for Drosophila melanogaster using Li-Vidal-2004 Caenorhabditis elegans data
+,LITERATURE,8,predicted,I2D_Li-Vidal-2004_LITERATURE_Worm2Fly,14704431,I2D predictions of protein protein interactions for Drosophila melanogaster using Li-Vidal-2004 Caenorhabditis elegans data
+,HPRD,3742,predicted,I2D_HPRD_Human2Fly,,I2D predictions of protein protein interactions for Drosophila melanogaster using HPRD Homo sapiens data
+,IntAct,1989,predicted,I2D_IntAct_Human2Fly,,I2D predictions of protein protein interactions for Drosophila melanogaster using IntAct Homo sapiens data
+,IntAct_Mouse,357,predicted,I2D_IntAct_Mouse2Fly,,I2D predictions of protein protein interactions for Drosophila melanogaster using IntAct Mus musculus data
+,IntAct_Rat,38,predicted,I2D_IntAct_Rat2Fly,,I2D predictions of protein protein interactions for Drosophila melanogaster using IntAct Rattus norvegicus data
+,IntAct_Worm,149,predicted,I2D_IntAct_Worm2Fly,,I2D predictions of protein protein interactions for Drosophila melanogaster using IntAct Caenorhabditis elegans data
+,IntAct_Yeast,7886,predicted,I2D_IntAct_Yeast2Fly,,I2D predictions of protein protein interactions for Drosophila melanogaster using IntAct Saccharomyces cerevisiae data
+,INTEROLOG,500,predicted,I2D_Li-Vidal-2004_Interolog_Worm2Fly,14704431,I2D predictions of protein protein interactions for Drosophila melanogaster using Li-Vidal-2004 Caenorhabditis elegans data
+,Krogan_Core,1187,predicted,I2D_KroganCore_Yeast2Fly,16554755,I2D predictions of protein protein interactions for Drosophila melanogaster using Krogan-Greenblatt-2006 Saccharomyces cerevisiae data
+,Krogan_NonCore,1040,predicted,I2D_KroganNonCore_Yeast2Fly,16554755,I2D predictions of protein protein interactions for Drosophila melanogaster using Krogan-Greenblatt-2006 Saccharomyces cerevisiae data
+,MGI,89,predicted,I2D_MGI_Mouse2Fly,,I2D predictions of protein protein interactions for Drosophila melanogaster using MGI Mus musculus data
+,MINT,1075,predicted,I2D_MINT_Human2Fly,,I2D predictions of protein protein interactions for Drosophila melanogaster using MINT Homo sapiens data
+,MINT_Worm,649,predicted,I2D_MINT_Worm2Fly,,I2D predictions of protein protein interactions for Drosophila melanogaster using MINT Caenorhabditis elegans data
+,MINT_Yeast,4332,predicted,I2D_MINT_Yeast2Fly,,I2D predictions of protein protein interactions for Drosophila melanogaster using MINT Saccharomyces cerevisiae data
+,MIPS,866,predicted,I2D_MIPS_Yeast2Fly,,I2D predictions of protein protein interactions for Drosophila melanogaster using MIPS Saccharomyces cerevisiae data
+,NON_CORE,143,predicted,I2D_Li-Vidal-2004_Non-Core_Worm2Fly,14704431,I2D predictions of protein protein interactions for Drosophila melanogaster using Li-Vidal-2004 Caenorhabditis elegans data
+,Pawson1,32,predicted,I2D_Ingham-Pawson-2005_Human2Fly,16055720,I2D predictions of protein protein interactions for Drosophila melanogaster using Ingham-Pawson-2005 Homo sapiens data
+,Pawson2,1,predicted,I2D_Wells-Pawson-2006_Human2Fly,16678097,I2D predictions of protein protein interactions for Drosophila melanogaster using Wells-Pawson-2006 Homo sapiens data
+,Pawson3,1,predicted,I2D_Jones-Pawson-2006_Human2Fly,16525419,I2D predictions of protein protein interactions for Drosophila melanogaster using Jones-Pawson-2006 Homo sapiens data
+,ShawnLi,57,predicted,I2D_Wu-Li-2007_Human2Fly,17474147,I2D predictions of protein protein interactions for Drosophila melanogaster using Wu-Li-2007 Homo sapiens data
+,StelzlHigh,165,predicted,I2D_Stelzl-Wanker-2005_High_Human2Fly,16169070,I2D predictions of protein protein interactions for Drosophila melanogaster using Stelzl-Wanker-2005 Homo sapiens data
+,StelzlLow,56,predicted,I2D_Stelzl-Wanker-2005_Low_Human2Fly,16169070,I2D predictions of protein protein interactions for Drosophila melanogaster using Stelzl-Wanker-2005 Homo sapiens data
+,StelzlMedium,224,predicted,I2D_Stelzl-Wanker-2005_Medium_Human2Fly,16169070,I2D predictions of protein protein interactions for Drosophila melanogaster using Stelzl-Wanker-2005 Homo sapiens data
+,Tarassov_PCA,397,predicted,I2D_Tarassov-Michnick-2008_Yeast2Fly,18467557,I2D predictions of protein protein interactions for Drosophila melanogaster using Tarassov-Michnick-2008 Saccharomyces cerevisiae data
+,TewariTGFb,11,predicted,I2D_Tewari-Vidal-2004_Worm2Fly,14992718,I2D predictions of protein protein interactions for Drosophila melanogaster using Tewari-Vidal-2004 Caenorhabditis elegans data
+,VidalHuman_core,191,predicted,I2D_Rual-Vidal-2004-core_Human2Fly,16189514,I2D predictions of protein protein interactions for Drosophila melanogaster using Rual-Vidal-2005 Homo sapiens data
+,VidalHuman_non_core,69,predicted,I2D_Rual-Vidal-2004-non_core_Human2Fly,16189514,I2D predictions of protein protein interactions for Drosophila melanogaster using Stelzl-Wanker-2005 Homo sapiens data
+,WranaHigh,7,predicted,I2D_Barrios-Rodiles-Wrana-2005-High_Human2Fly,15761153,I2D predictions of protein protein interactions for Drosophila melanogaster using Barrios-Rodiles-Wrana-2005 Homo sapiens data
+,WranaLow,80,predicted,I2D_Barrios-Rodiles-Wrana-2005-Low_Human2Fly,15761153,I2D predictions of protein protein interactions for Drosophila melanogaster using Barrios-Rodiles-Wrana-2005 Homo sapiens data
+,WranaMedium,24,predicted,I2D_Barrios-Rodiles-Wrana-2005-Medium_Human2Fly,15761153,I2D predictions of protein protein interactions for Drosophila melanogaster using Barrios-Rodiles-Wrana-2005 Homo sapiens data
+,Yeast_Kinome,75,predicted,I2D_Ptacek-Snyder-2005_Yeast2Fly,16319894,I2D predictions of protein protein interactions for Drosophila melanogaster using Ptacek-Snyder-2005 Saccharomyces cerevisiae data
+,YeastHigh,858,predicted,I2D_vonMering-Bork-2002-high_Yeast2Fly,12000970,I2D predictions of protein protein interactions for Drosophila melanogaster using vonMering-Bork-2002 Saccharomyces cerevisiae data
+,YeastLow,10794,predicted,I2D_vonMering-Bork-2002-low_Yeast2Fly,12000970,I2D predictions of protein protein interactions for Drosophila melanogaster using vonMering-Bork-2002 Saccharomyces cerevisiae data
+,YeastMedium,2331,predicted,I2D_vonMering-Bork-2002-medium_Yeast2Fly,12000970,I2D predictions of protein protein interactions for Drosophila melanogaster using vonMering-Bork-2002 Saccharomyces cerevisiae data
+,Yu_GoldStd,298,predicted,I2D_Yu-Vidal-2008_GoldStandard_Yeast2Fly,18719252,I2D predictions of protein protein interactions for Drosophila melanogaster using Yu Gold Standard Saccharomyces cerevisiae data
+,WranaGroup,,predicted,I2D_Barrios-Rodiles-Wrana-2005_Human2Fly,15761153,I2D predictions of protein protein interactions for Drosophila melanogaster using Barrios-Rodiles-Wrana-2005 Homo sapiens data
+,StelzlLowMed,,predicted,I2D_Stelzl-Wanker-2005_Human2Fly,16169070,I2D predictions of protein protein interactions for Drosophila melanogaster using Stelzl-Wanker-2005 Homo sapiens data,combined from Stelzl low/med
+,under_threshold,,predicted,I2D_small_scale,,I2D predictions combined small-scale datasets,combined from all datasets where number of interactions is less than threshold

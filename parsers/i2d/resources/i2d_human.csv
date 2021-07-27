@@ -1,0 +1,62 @@
+Human,Dataset,Number of interactions in dataset,Datatype,Network Name,PubMed ID for tagging purposes,Comment
+,BIND,13712,source
+,Caesar,16,source
+,HPRD,36232,source
+,IntAct,13305,source
+,JonesErbB1,177,source
+,MINT,13165,source
+,Pawson1,296,source
+,Pawson2,23,source
+,Pawson3,2,source
+,Pawson4,12,source
+,ShawnLi,581,source
+,StelzlHigh,910,source
+,StelzlLow,558,source
+,StelzlMedium,1688,source
+,VidalHuman_core,2486,source
+,VidalHuman_non_core,768,source
+,WranaHigh,38,source
+,WranaLow,527,source
+,WranaMedium,143,source
+
+,BIND_Fly,1986,predicted,I2D_BIND_Fly2Human,,I2D predictions of protein protein interactions for Homo sapiens using BIND Drosophila melanogaster data
+,BIND_Mouse,1393,predicted,I2D_BIND_Mouse2Human,,I2D predictions of protein protein interactions for Homo sapiens using BIND Mus musculus data
+,BIND_Rat,697,predicted,I2D_BIND_Rat2Human,,I2D predictions of protein protein interactions for Homo sapiens using BIND Rattus norvegicus data
+,BIND_Worm,783,predicted,I2D_BIND_Worm2Human,,I2D predictions of protein protein interactions for Homo sapiens using BIND Caenorhabditis elegans data
+,BIND_Yeast,1437,predicted,I2D_BIND_Yeast2Human,,I2D predictions of protein protein interactions for Homo sapiens using BIND Saccharomyces cerevisiae data
+,BioGRID_Yeast,2487,predicted,I2D_BioGRID_Yeast2Human,,I2D predictions of protein protein interactions for Homo sapiens using BioGRID Saccharomyces cerevisiae data
+,CE_DATA,99,predicted,I2D_Li-Vidal-2004_CE_DATA_Worm2Human,14704431,I2D predictions of protein protein interactions for Homo sapiens using Li-Vidal-2004 Caenorhabditis elegans data
+,CORE_1,97,predicted,I2D_Li-Vidal-2004_CORE_1_Worm2Human,14704431,I2D predictions of protein protein interactions for Homo sapiens using Li-Vidal-2004 Caenorhabditis elegans data
+,CORE_2,140,predicted,I2D_Li-Vidal-2004_CORE_2_Worm2Human,14704431,I2D predictions of protein protein interactions for Homo sapiens using Li-Vidal-2004 Caenorhabditis elegans data
+,FlyCellCycle,207,predicted,I2D_Stanyon-Finley-2004-CellCycle_Fly2Human,15575970,I2D predictions of protein protein interactions for Homo sapiens using Stanyon-Finley-2004 Drosophila melanogaster data
+,FlyEmbryo,315,predicted,I2D_Formstecher-Daviet-2005-Embryo_Fly2Human,15710747,I2D predictions of protein protein interactions for Homo sapiens using Formstecher-Daviet-2005 Drosophila melanogaster data
+,FlyHead,16,predicted,I2D_Formstecher-Daviet-2005-Head_Fly2Human,15710747,I2D predictions of protein protein interactions for Homo sapiens using Formstecher-Daviet-2005 Drosophila melanogaster data
+,FlyHigh,487,predicted,I2D_Giot-Rothbert-2003-High_Fly2Human,14605208,I2D predictions of protein protein interactions for Homo sapiens using Giot-Rothbert-2003 Drosophila melanogaster data
+,FlyLow,1359,predicted,I2D_Giot-Rothbert-2003-Low_Fly2Human,14605208,I2D predictions of protein protein interactions for Homo sapiens using Giot-Rothbert-2003 Drosophila melanogaster data
+,IntAct_Fly,241,predicted,I2D_IntAct_Fly2Human,,I2D predictions of protein protein interactions for Homo sapiens using IntAct Drosophila melanogaster data
+,IntAct_Mouse,2200,predicted,I2D_IntAct_Mouse2Human,,I2D predictions of protein protein interactions for Homo sapiens using IntAct Mus musculus data
+,IntAct_Rat,885,predicted,I2D_IntAct_Rat2Human,,I2D predictions of protein protein interactions for Homo sapiens using IntAct Rattus norvegicus data
+,IntAct_Worm,228,predicted,I2D_IntAct_Worm2Human,,I2D predictions of protein protein interactions for Homo sapiens using IntAct Caenorhabditis elegans data
+,IntAct_Yeast,9057,predicted,I2D_IntAct_Yeast2Human,,I2D predictions of protein protein interactions for Homo sapiens using IntAct Saccharomyces cerevisiae data
+,INTEROLOG,548,predicted,I2D_Li-Vidal-2004_interolog_Worm2Human,14704431,I2D predictions of protein protein interactions for Homo sapiens using Li-Vidal-2004 Caenorhabditis elegans data
+,Krogan_Core,1461,predicted,I2D_Krogan-Greenblatt-2006_Core_Yeast2Human,16554755,I2D predictions of protein protein interactions for Homo sapiens using Krogan-Greenblatt-2006 Saccharomyces cerevisiae data
+,Krogan_NonCore,1217,predicted,I2D_Krogan-Greenblatt-2006_NonCore_Yeast2Human,16554755,I2D predictions of protein protein interactions for Homo sapiens using Krogan-Greenblatt-2006 Saccharomyces cerevisiae data
+,LITERATURE,12,predicted,I2D_Li-Vidal-2004-literature_Worm2Human,14704431,I2D predictions of protein protein interactions for Homo sapiens using Li-Vidal-2004 Caenorhabditis elegans data
+,MGI,709,predicted,I2D_MGI_Mouse2Human,,I2D predictions of protein protein interactions for Homo sapiens using MGI Mus musculusdata
+,MINT_Fly,2235,predicted,I2D_MINT_Fly2Human,,I2D predictions of protein protein interactions for Homo sapiens using  MINT Drosophila melanogaster data
+,MINT_Worm,816,predicted,I2D_MINT_Worm2Human,,I2D predictions of protein protein interactions for Homo sapiens using MINT Caenorhabditis elegans data
+,MINT_Yeast,4951,predicted,I2D_MINT_Yeast2Human,,I2D predictions of protein protein interactions for Homo sapiens using MINT Saccharomyces cerevisiae data
+,MIPS,950,predicted,I2D_MIPS_Yeast2Human,,I2D predictions of protein protein interactions for Homo sapiens using MIPS Saccharomyces cerevisiae data
+,NON_CORE,164,predicted,I2D_Li-Vidal-2004_NON_CORE_Worm2Human,14704431,I2D predictions of protein protein interactions for Homo sapiens using Li-Vidal-2004 Caenorhabditis elegans data
+,Tarassov_PCA,439,predicted,I2D_Tarassov_PCA_Yeast2Human,18467557,I2D predictions of protein protein interactions for Homo sapiens using Tarassov-Michnick-2008 Saccharomyces cerevisiae data
+,TewariTGFb,13,predicted,I2D_Tewari-Vidal-2004_Worm2Human,14992718,I2D predictions of protein protein interactions for Homo sapiens using Tewari-Vidal-2004 Caenorhabditis elegans data
+,WangEScmplx,41,predicted,I2D_Wang-Orkin-2006_EScomplx_Mouse2Human,17093407,I2D predictions of protein protein interactions for Homo sapiens using Wang-Orkin-2006 Mus musculus data
+,WangEScmplxlow,3,predicted,I2D_Wang-Orkin-2006_EScmplxlow_Mouse2Human,17093407,I2D predictions of protein protein interactions for Homo sapiens using Wang-Orkin-2006 Mus musculus data
+,WangEScoIP,4,predicted,I2D_Wang-Orkin-2006_EScoIP_Mouse2Human,17093407,I2D predictions of protein protein interactions for Homo sapiens using Wang-Orkin-2006 Mus musculus data
+,Yeast_Kinome,204,predicted,I2D_Ptacek-Snyder-2005_Yeast2Human,16319894,I2D predictions of protein protein interactions for Homo sapiens using Ptacek-Snyder-2005 Saccharomyces cerevisiae data
+,YeastHigh,941,predicted,I2D_vonMering-Bork-2002_High_Yeast2Human,12000970,I2D predictions of protein protein interactions for Homo sapiens using vonMering-Bork-2002 Saccharomyces cerevisiae data
+,YeastLow,12337,predicted,I2D_vonMering-Bork-2002_Low_Yeast2Human,12000970,I2D predictions of protein protein interactions for Homo sapiens using vonMering-Bork-2002 Saccharomyces cerevisiae data
+,YeastMedium,2717,predicted,I2D_vonMering-Bork-2002_Medium_Yeast2Human,12000970,I2D predictions of protein protein interactions for Homo sapiens using vonMering-Bork-2002 Saccharomyces cerevisiae data
+,Yu_GoldStd,320,predicted,I2D_Yu-Vidal-2008_GoldStd_Yeast2Human,18719252,I2D predictions of protein protein interactions for Homo sapiens using Yu Gold Standard Saccharomyces cerevisiae data
+
+,under_threshold,,predicted,I2D_small_scale,,I2D predictions combined small-scale datasets,combined from all datasets where number of interactions is less than threshold

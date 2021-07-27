@@ -1,0 +1,51 @@
+Yeast,Dataset,Number of interactions in dataset,Datatype,Network Name,PubMed ID for tagging purposes,Comment,Note
+,BIND_Yeast,8979,source
+,BioGRID_Yeast,11838,source
+,IntAct_Yeast,37051,source
+,Krogan_Core,6525,source
+,Krogan_NonCore,6710,source
+,MINT_Yeast,24272,source
+,MIPS,7888,source
+,Tarassov_PCA,2615,source
+,Yeast_Kinome,3905,source
+,YeastHigh,2339,source
+,YeastLow,60813,source
+,YeastMedium,8312,source
+,Yu_GoldStd,1294,source
+
+,BIND,362,predicted,I2D_BIND_Human2Yeast,,I2D predictions of protein protein interactions for Saccharomyces cerevisiae using BIND Homo sapiens data
+,BIND_Fly,306,predicted,I2D_BIND_Fly2Yeast,,I2D predictions of protein protein interactions for Saccharomyces cerevisiae using BIND Drosophila melanogaster data
+,BIND_Mouse,72,predicted,I2D_BIND_Mouse2Yeast,,I2D predictions of protein protein interactions for Saccharomyces cerevisiae using BIND Mus musculus data
+,BIND_Rat,36,predicted,I2D_BIND_Rat2Yeast,,I2D predictions of protein protein interactions for Saccharomyces cerevisiae using BIND Rattus norvegicus data
+,BIND_Worm,205,predicted,I2D_BIND_Worm2Yeast,,I2D predictions of protein protein interactions for Saccharomyces cerevisiae using BIND Caenorhabditis elegans data
+,CE_DATA,52,predicted,I2D_Li-Vidal-2004_CE_DATA_Worm2Yeast,14704431,I2D predictions of protein protein interactions for Saccharomyces cerevisiae using Li-Vidal-2004 Caenorhabditis elegans data
+,CORE_1,13,predicted,I2D_Li-Vidal-2004_CORE_1_Worm2Yeast,14704431,I2D predictions of protein protein interactions for Saccharomyces cerevisiae using Li-Vidal-2004 Caenorhabditis elegans data
+,CORE_2,16,predicted,I2D_Li-Vidal-2004_CORE_2_Worm2Yeast,14704431,I2D predictions of protein protein interactions for Saccharomyces cerevisiae using Li-Vidal-2004 Caenorhabditis elegans data
+,FlyCellCycle,23,predicted,I2D_Stanyon-Finley-2004-CellCycle_Fly2Yeast,15575970,I2D predictions of protein protein interactions for Saccharomyces cerevisiae using Stanyon-Finley-2004 Drosophila melanogaster data
+,FlyEmbryo,21,predicted,I2D_Formstecher-Daviet-2005-Embryo_Fly2Yeast,15710747,I2D predictions of protein protein interactions for Saccharomyces cerevisiae using Formstecher-Daviet-2005 Drosophila melanogaster data
+,FlyHead,2,predicted,I2D_Formstecher-Daviet-2005-Head_Fly2Yeast,15710747,I2D predictions of protein protein interactions for Saccharomyces cerevisiae using Formstecher-Daviet-2005 Drosophila melanogaster data
+,FlyHigh,102,predicted,I2D_Giot-Rothbert-2003-High_Fly2Yeast,14605208,I2D predictions of protein protein interactions for Saccharomyces cerevisiae using Giot-Rothbert-2003 Drosophila melanogaster data
+,FlyLow,195,predicted,I2D_Giot-Rothbert-2003-Low_Fly2Yeast,14605208,I2D predictions of protein protein interactions for Saccharomyces cerevisiae using Giot-Rothbert-2003 Drosophila melanogaster data
+,HPRD,1088,predicted,I2D_HPRD_Human2Yeast,,I2D predictions of protein protein interactions for Saccharomyces cerevisiae using HPRD Homo sapiens data
+,IntAct,708,predicted,I2D_IntAct_Human2Yeast,,I2D predictions of protein protein interactions for Saccharomyces cerevisiae using IntAct Homo sapiens data
+,IntAct_Fly,47,predicted,I2D_IntAct_Fly2Yeast,,I2D predictions of protein protein interactions for Saccharomyces cerevisiae using IntAct Drosophila melanogaster data
+,IntAct_Mouse,102,predicted,I2D_IntAct_Mouse2Yeast,,I2D predictions of protein protein interactions for Saccharomyces cerevisiae using IntAct Mus musculus data
+,IntAct_Rat,21,predicted,I2D_IntAct_Rat2Yeast,,I2D predictions of protein protein interactions for Saccharomyces cerevisiae using IntAct Rattus norvegicus data
+,IntAct_Worm,103,predicted,I2D_IntAct_Worm2Yeast,,I2D predictions of protein protein interactions for Saccharomyces cerevisiae using IntAct Caenorhabditis elegans data
+,INTEROLOG,472,predicted,I2D_Li-Vidal-2004_interolog_Worm2Yeast,14704431,I2D predictions of protein protein interactions for Saccharomyces cerevisiae using Li-Vidal-2004 Caenorhabditis elegans data
+,LITERATURE,3,predicted,I2D_Li-Vidal-2004-literature_Worm2Yeast,14704431,I2D predictions of protein protein interactions for Saccharomyces cerevisiae using Li-Vidal-2004 Caenorhabditis elegans data
+,MGI,10,predicted,I2D_MGI_Mouse2Yeast,,I2D predictions of protein protein interactions for Saccharomyces cerevisiae using MGI Mus musculus data
+,MINT,311,predicted,I2D_MINT_Human2Yeast,,I2D predictions of protein protein interactions for Saccharomyces cerevisiae using MINT Homo sapiens data
+,MINT_Fly,362,predicted,I2D_MINT_Fly2Yeast,,I2D predictions of protein protein interactions for Saccharomyces cerevisiae using MINT Drosophila melanogaster data
+,MINT_Worm,178,predicted,I2D_MINT_Worm2Yeast,,I2D predictions of protein protein interactions for Saccharomyces cerevisiae using MINT Caenorhabditis elegans data
+,NON_CORE,30,predicted,I2D_Li-Vidal-2004_NON_CORE_Worm2Yeast,14704431,I2D predictions of protein protein interactions for Saccharomyces cerevisiae using Li-Vidal-2004 Caenorhabditis elegans data
+,Pawson1,9,predicted,I2D_Ingham-Pawson-2005_Human2Yeast,16055720,I2D predictions of protein protein interactions for Saccharomyces cerevisiae using Ingham-Pawson-2005 Homo sapiens data
+,StelzlHigh,58,predicted,I2D_Stelzl-Wanker-2005_High_Human2Yeast,16169070,I2D predictions of protein protein interactions for Saccharomyces cerevisiae using Stelzl-Wanker-2005 Homo sapiens data
+,StelzlLow,15,predicted,I2D_Stelzl-Wanker-2005_Low_Human2Yeast,16169070,I2D predictions of protein protein interactions for Saccharomyces cerevisiae using Stelzl-Wanker-2005 Homo sapiens data
+,StelzlMedium,40,predicted,I2D_Stelzl-Wanker-2005_Medium_Human2Yeast,16169070,I2D predictions of protein protein interactions for Saccharomyces cerevisiae using Stelzl-Wanker-2005 Homo sapiens data
+,TewariTGFb,3,predicted,I2D_Tewari-Vidal-2004_Worm2Yeast,14992718,I2D predictions of protein protein interactions for Saccharomyces cerevisiae using Tewari-Vidal-2004 Caenorhabditis elegans data
+,VidalHuman_core,63,predicted,I2D_Rual-Vidal-2004-core_Human2Yeast,16189514,I2D predictions of protein protein interactions for Saccharomyces cerevisiae using Rual-Vidal-2005 Homo sapiens data
+,VidalHuman_non_core,11,predicted,I2D_Rual-Vidal-2004-non_core_Human2Yeast,16189514,I2D predictions of protein protein interactions for Saccharomyces cerevisiae using Rual-Vidal-2005 Homo sapiens data
+,StelzlLowMed,,predicted,I2D_Stelzl-Wanker-2005_Human2Worm,16169070,"I2D predictions of protein protein interactions for Caenorhabditis elegans using Stelzl-Wanker-2005 Homo sapiens dataI2D predictions of protein protein interactions for Saccharomyces cerevisiae using Stelzl-Wanker-2005 Homo sapiens data
+",combined from Stelzl low/med
+,under_threshold,,predicted,I2D_small_scale,,I2D predictions combined small-scale datasets,combined from all datasets where number of interactions is less than threshold

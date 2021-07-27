@@ -1,0 +1,629 @@
+[BuildScriptsConfig]
+# this section is for the configuration for the build process scripts
+
+# ___[revision]_________________________________________
+revision = r1
+
+# ___[directories]______________________________________
+code_dir = /home/gmbuild/dev/r1/src
+srcdb = /home/gmbuild/dev/r1/db
+build_dir = /home/gmbuild/dev/r1/bp/build
+resource_dir = /home/gmbuild/dev/T_r5/bp/resources
+staging_dir = /gm/db_build/r1
+org_dir = /home/gmbuild/dev/r1/bp/single_orgdir
+
+
+# ___[resource files]___________________________________
+meshdb = mtrees2016.bin
+biogrid_version = LATEST
+
+# entrez, ensembl, tair, static data local mirrors
+dbmirror = /home/gmbuild/ensembl_data
+tair_files = TAIR
+entrez_files = Entrez
+ensembl_core = Ensembl
+ensembl_metazoa = Ensembl_Metazoa
+ensembl_bacteria = Ensembl_Bacteria
+ensembl_plants = Ensembl_Plants
+static_data = GeneMANIA_static
+
+# ensembl releases to use
+ensembl_core_release =100
+ensembl_plants_release =46
+ensembl_metazoa_release =46
+ensembl_bacteria_release =46
+
+gmt_dir=DrugTargets TranscriptionFactors Pathways miRs
+
+# geo metadb sqlite
+geodb = GEOmetadb.sqlite#
+
+# pathway commons organisms
+pc_org = saccharomyces-cerevisiae-4932
+pc_short = Sc 
+
+# i2d organisms - must be uppercase
+i2d_org = YEAST
+i2d_short = Sc
+
+# irefindex organisms, use tax ids. plant data is found in the All file
+iref_org = 4932
+
+# shared protein domain organisms
+spd_org = saccharomyces_cerevisiae
+
+
+# biogrid organisms - first character must be uppercase
+# no tetrahymena dbs in biogrid
+biogrid_org = Saccharomyces_cerevisiae
+
+[FileLocations]
+
+# other paths relative to this location
+base_dir = .
+
+# sqlite db containing geo metadata
+geo_metadb_name = geodb/GEOmetadb.sqlite
+
+# root of tree that will contain all the network specific data
+data_dir = data
+
+# subdir for raw data
+raw_dir = raw
+
+# subdir for 'processed' profile data, ready for p2n
+profile_dir = profile
+
+# subdir for network
+network_dir = network
+
+# attribute data
+attribute_dir = attributes
+
+# functions
+functions_webimport_dir = functions_webimport
+
+# subdir for normalized, internal id-mapped networks
+processed_network_dir = processed_network
+
+# identifier mapping files
+raw_mappings_dir = mappings/raw
+reverse_mappings_dir = mappings/reverse
+processed_mappings_dir = mappings/processed
+
+# where to store platform files for geo
+platform_data_dir = platforms
+
+# mesh tree for propagation
+mesh_tree_file = mesh_data/mtrees2016.bin
+
+# genemania mapping from mesh terms to our tags
+mesh_to_gmtag_filename = mesh_data/selected_terms.csv
+
+# where to store our intermediate (db independent) data representation
+generic_db_dir = generic_db
+
+# location for network cache
+network_cache_dir = network_cache
+
+# location for pubmed metadata cache
+pubmed_cache_dir = pubmed_cache
+
+# location of Ontology (obo) data, and corresponding
+# processed (flat-file) data
+raw_ontologies_dir = ontologies/raw
+processed_ontologies_dir = ontologies/processed
+
+# location of annotation data
+annotations_dir = GoCategories
+
+[DataSources]
+# this list does not have to cover all possible sources, its
+# used to generate linkouts to a given source in the network metadata
+#
+# 'ref_url' will be used if the url should be interpolated with a reference
+# field from the network data, at the location of '%s' in the url pattern.
+# otherwise 'url' will be used.
+
+[[GEO]]
+ref_url = http://www.ncbi.nlm.nih.gov/projects/geo/query/acc.cgi?acc=%s
+url = http://www.ncbi.nlm.nih.gov/geo/
+
+[[PATHWAYCOMMONS]]
+url = http://www.pathwaycommons.org/
+
+[[IREF]]
+url = http://irefindex.uio.no/wiki/iRefIndex
+
+[[BIOGRID]]
+url = http://thebiogrid.org/
+
+[[I2D]]
+url = http://ophid.utoronto.ca/
+
+[[INTERPRO]]
+url = http://www.ebi.ac.uk/interpro/
+
+[[DROID]]
+url = http://www.droidb.org/
+
+[[MOUSEFUNC]]
+url = http://genomebiology.com/2008/9/S1/S2/
+
+[[PFAM]]
+url = http://pfam.sanger.ac.uk/
+
+
+[processing]
+# instructions for how to process 
+# data from each collection
+
+[[geo]]
+p2n = true
+p2n_input_from = profile
+p2n_output_to = network
+correlation = pearson
+sparsification = 50
+proftype = continuous
+
+nn_input_from = network
+nn_output_to = processed_network
+normalize = true
+
+processing_type = Pearson correlation
+processing_display_code = p
+
+[[pfam]]
+p2n = true
+p2n_input_from = raw_data
+p2n_output_to = network
+correlation = pearson_bin_log_no_norm
+sparsification = 50
+proftype = binary
+
+nn_input_from = network
+nn_output_to = processed_network
+normalize = true
+
+processing_type = Pearson correlation
+processing_display_code = p
+
+[[interpro]]
+p2n = true
+p2n_input_from = raw_data
+p2n_output_to = network
+correlation = pearson_bin_log_no_norm
+sparsification = 50
+proftype = binary
+
+nn_input_from = network
+nn_output_to = processed_network
+normalize = true
+
+processing_type = Pearson correlation
+processing_display_code = p
+
+[[mousefunc]]
+p2n = false
+nn_input_from = raw_data
+nn_output_to = processed_network
+normalize = true
+
+[[biogrid_direct]]
+p2n = false
+nn_input_from = raw_data
+nn_output_to = processed_network
+normalize = true
+
+processing_type = Direct interaction
+processing_display_code = d
+
+[[biogrid_sharedneighbor]]
+p2n = true
+p2n_input_from = raw_data
+p2n_output_to = network
+correlation = PEARSON_BIN_LOG_NO_NORM
+sparsification = 50
+proftype = network
+
+nn_input_from = network
+nn_output_to = processed_network
+normalize = true
+
+processing_type = Shared neighbor
+processing_display_code = s
+
+[[biogrid_default_networks]]
+At = GI, PPI
+Ce = GI, PPI, 17897480, 14704431
+Dm = GI, PPI, 14605208, 15575970
+Hs = GI, PPI, 16169070, 16189514, 17353931
+Mm = PPI
+Rn = PPI
+Sc = GI, PPI, 11805826, 11805837, 16093310, 16429126, 16554755, 17200106, 18467557, 14764870, 16269340, 16487579, 17314980, 17923092, 18676811
+Dr = GI, PPI
+Ec = GI, PPI
+
+[[iref_direct]]
+p2n = false
+nn_input_from = raw_data
+nn_output_to = processed_network
+normalize = true
+
+processing_type = Direct interaction
+processing_display_code = d
+
+[[spd_attr]]
+name = Shared protein domains attribute
+description = ""
+code = spd_attr
+display_code = SDA
+
+[[reg_attr]]
+name = Regulatory attribute
+description = ""
+code = reg_attr
+
+[[reg]]
+name = Regulatory
+description = ""
+code = reg
+display_code = REG
+
+[[pathwaycommons_direct]]
+p2n = false
+nn_input_from = raw_data
+nn_output_to = processed_network
+normalize = true
+
+processing_type = Direct interaction
+processing_display_code = d
+
+[[pathwaycommons_sharedneighbor]]
+p2n = true
+p2n_input_from = raw_data
+p2n_output_to = network
+correlation = PEARSON_BIN_LOG_NO_NORM
+sparsification = 50
+proftype = network
+
+nn_input_from = network
+nn_output_to = processed_network
+normalize = true
+
+processing_type = Shared neighbor
+processing_display_code = s
+
+[[i2d_direct]]
+p2n = false
+nn_input_from = raw_data
+nn_output_to = processed_network
+normalize = true
+
+processing_type = Direct interaction
+processing_display_code = d
+
+[[i2d_sharedneighbor]]
+p2n = true
+p2n_input_from = raw_data
+p2n_output_to = network
+correlation = PEARSON_BIN_LOG_NO_NORM
+sparsification = 50
+proftype = network
+
+nn_input_from = network
+nn_output_to = processed_network
+normalize = true
+
+processing_type = Shared neighbor
+processing_display_code = s
+
+[[misc_network]]
+p2n = false
+nn_input_from = raw_data
+nn_output_to = processed_network
+normalize = true
+
+[[misc_network_normalized]]
+p2n = false
+nn_input_from = raw_data
+nn_output_to = processed_network
+normalize = false
+
+[[misc_profile]]
+p2n = true
+p2n_input_from = raw_data
+p2n_output_to = network
+correlation = pearson
+sparsification = 50
+proftype = continuous
+
+nn_input_from = network
+nn_output_to = processed_network
+normalize = true
+
+processing_type = Pearson correlation
+processing_display_code = p
+
+[[web_import_network]]
+p2n = false
+nn_input_from = raw_data
+nn_output_to = processed_network
+normalize = true
+
+[[web_import_profile]]
+p2n = true
+p2n_input_from = raw_data
+p2n_output_to = network
+correlation = pearson
+sparsification = 50
+proftype = continuous
+
+nn_input_from = network
+nn_output_to = processed_network
+normalize = true
+
+processing_type = Pearson correlation
+processing_display_code = p
+
+[[web_import_binary_to_shared_neighbor]]
+p2n = true
+p2n_input_from = raw_data
+p2n_output_to = network
+correlation = PEARSON_BIN_LOG_NO_NORM
+sparsification = 50
+proftype = network
+
+nn_input_from = network
+nn_output_to = processed_network
+normalize = true
+
+processing_type = Shared neighbor
+processing_display_code = s
+
+
+[[web_import_sparse_profile]]
+p2n = true
+p2n_input_from = raw_data
+p2n_output_to = network
+correlation = PEARSON_BIN_LOG_NO_NORM
+sparsification = 50
+proftype = binary
+
+nn_input_from = network
+nn_output_to = processed_network
+normalize = true
+
+processing_type = Shared neighbor
+processing_display_code = s
+
+
+
+[NetworkGroups]
+
+[[coexp]]
+name = Co-expression
+description = ""
+code = coexp
+display_code = CE
+
+[[pi]]
+name = Physical interactions
+description = ""
+code = pi
+display_code = PPI
+
+[[gi]]
+name = Genetic interactions
+description = ""
+code = gi
+display_code = GI
+
+[[coloc]]
+name = Co-localization
+description = ""
+code = coloc
+display_code = CL
+
+[[spd]]
+name = Shared protein domains
+description = ""
+code = spd
+display_code = SD
+
+[[predict]]
+name = Predicted
+description = ""
+code = predict
+display_code = PRD
+
+[[path]]
+name = Pathway
+description = ""
+code = path
+display_code = PTH
+
+[[other]]
+name = Other
+description = ""
+code = other
+display_code = OT
+
+# no user-defined group, until
+# we add network upload functionality
+#[[User]]
+#name = User-defined
+#description =
+#code = user
+
+[NamingSources]
+# preferred sources have higher priority values
+
+[[syn]]
+name = Synonym
+priority = 0
+short_name = Synonym
+link = ""
+
+[[entrgid]]
+name = Entrez Gene ID
+priority = 1
+short_name = Entrez
+link = http://www.ncbi.nlm.nih.gov/sites/entrez?db=gene&cmd=search&term=${1}
+
+[[enstrid]]
+name = Ensembl Transcript ID
+priority = 2
+short_name = Ensembl
+link = http://www.ensembl.org/${2}/geneview?gene=${1}
+
+[[enspid]]
+name = Ensembl Protein ID
+priority = 3
+short_name = Ensembl
+link = http://www.ensembl.org/${2}/geneview?gene=${1}
+
+[[rspid]]
+name = RefSeq Protein ID
+priority = 4
+short_name = Entrez
+link = http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?val=${1}
+
+[[upid]]
+name = Uniprot ID
+priority = 5
+short_name = Uniprot
+link = http://www.uniprot.org/uniprot/${1}
+
+[[tairid]]
+name = TAIR ID
+priority = 6
+short_name = TAIR
+link = http://arabidopsis.org/servlets/TairObject?type=locus&name=${1}
+
+[[mgiid]]
+name = MGI ID
+priority = 7
+short_name = MGI
+link = http://www.informatics.jax.org/marker/${1}
+
+[[rsmid]]
+name = RefSeq mRNA ID
+priority = 8
+short_name = Entrez
+link = http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?val=${1}
+
+[[ensgid]]
+name = Ensembl Gene ID
+priority = 9
+short_name = Ensembl
+link = http://www.ensembl.org/${2}/geneview?gene=${1}
+
+[[entrgn]]
+name = Entrez Gene Name
+priority = 10
+short_name = Entrez
+link = http://www.ncbi.nlm.nih.gov/sites/entrez?db=gene&cmd=search&term=${1}
+
+[[ensgn]]
+name = Ensembl Gene Name
+priority = 11
+short_name = Ensembl
+link = http://www.ensembl.org/${2}/geneview?gene=${1}
+
+[[name]]
+name = Gene Name
+priority = 12
+short_name = Name
+link = http://www.ncbi.nlm.nih.gov/sites/entrez?db=gene&cmd=search&term=${1}
+
+[[fbname]]
+name = FlyBaseName Gene
+priority = 13
+short_name = Name
+link = http://www.ncbi.nlm.nih.gov/sites/entrez?db=gene&cmd=search&term=${1}
+
+[Attributes]
+
+[[interpro]]
+#subdir = interpro
+name = InterPro
+code = PRDOM
+desc = Protein domain attributes
+linkout_label = InterPro
+linkout_url = http://www.ebi.ac.uk/interpro/IEntry?ac={1}
+default_selected = 0
+pub_name = InterPro: the integrative protein signature database
+pub_url = http://www.ncbi.nlm.nih.gov/pubmed/18940856
+attributes_identified_by = external_id
+assoc_format = 1
+assoc_file = data/interpro/MAGIC_ORG_IDENTIFIER/raw/all.txt
+desc_file = data/interpro/MAGIC_ORG_IDENTIFIER/ids/ipr.txt
+
+[Defaults]
+# set defaults
+
+[[System]]
+max_parallel_jobs = 4
+
+[[Networks]]
+# organism short ids followed by a list of network names (should be unique)
+Sc = ""
+
+[[Genes]]
+# organism short ids are associated with a list of genes,
+# genes identified by symbol
+Sc = MRE11, RAD54, RAD52, RAD10, XRS2, CDC27, APC4, APC2, APC5, APC11
+
+[Tools]
+# config for tools to do eg profile-to-network calculations,
+# network normalization,
+java = java
+# this is a list of entries for the classpath, if only one entry
+# then its important you put a ',' (comma) at the end so its
+# recognized as a list
+
+# note that most of the parameters to control these tools are encoded
+# in the cmd lines below. exceptions being the various file names
+
+# profile-to-network
+p2n_cmd = 'java -Xmx1024m -cp target/genemania-loader-0.2-jar-with-dependencies.jar org.genemania.engine.ProfileLoader -in "%s" -out "%s" -log "%s" -syn "%s"'
+
+# network-normalizer
+nn_cmd = 'java -Xmx1024m -cp target/genemania-loader-0.2-jar-with-dependencies.jar org.genemania.engine.NetworkNormalizer -outtype uid -norm true -in "%s" -out "%s" -log "%s" -syn "%s"'
+
+# cache-builder
+cb_cmd = java -Xmx1024m -cp target/genemania-loader-0.2-jar-with-dependencies.jar org.genemania.engine.CacheBuilder -cachedir %s -log %s/CacheBuilder.log -appcontext target/classes/applicationContext.xml -networkDir %s
+
+
+[Organisms]
+organisms = Sc, 
+
+[Naming]
+# mapping file from mesh descriptors to 
+# genemania tags
+meshdesc_to_gmtag = somefile.csv
+
+[Filters]
+# for geo series (GSE), a threshold on
+# the number of samples the set must have
+min_samples_per_series = 12
+
+[Sc]
+name = Saccharomyces cerevisiae
+short_name = S. cerevisiae
+common_name = baker's yeast
+ncbi_taxonomy_id = 4932
+short_id = Sc
+gm_organism_id = 6
+default_ontology = 6.annos-filtered
+ontology_size_limits = 10, 300
+go_species_filename = sgd
+
+platforms = GPL90, GPL1229, GPL2529, GPL884, GPL7259
+min_samples_per_series = 12
+retrieved_platforms = GPL90, GPL1229, GPL2529, GPL884
+
+identifier_merging_enabled = true
+identifier_biotypes = protein_coding, True
+identifier_sources_to_ignore = Ensembl Transcript ID

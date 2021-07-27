@@ -1,0 +1,87 @@
+Organism,Datasource,Use,Processing Notes,Pubmed ID,Network Name Prefix,Comment
+Fly,BioGrid_Fly,TRUE,,16381927,I2D_BioGRID_Fly2,I2D predictions of protein protein interactions using BioGRID Drosophila melanogaster data
+Fly,BIND_Fly,TRUE,,10871269,I2D_BIND_Fly2,I2D predictions of protein protein interactions using BIND Drosophila melanogaster data
+Fly,FlyCellCycle,TRUE,,15575970,I2D_Stanyon-Finley-2004-CellCycle_Fly2,I2D predictions of protein protein interactions using Stanyon-Finley-2004 Drosophila melanogaster data
+Fly,FlyEmbryo,TRUE,,15710747,I2D_Formstecher-Daviet-2005-Embryo_Fly2,I2D predictions of protein protein interactions using Formstecher-Daviet-2005 Drosophila melanogaster data
+Fly,FlyHead,TRUE,,15710747,I2D_Formstecher-Daviet-2005-Head_Fly2,I2D predictions of protein protein interactions using Formstecher-Daviet-2005 Drosophila melanogaster data
+Fly,FlyHigh,TRUE,,14605208,I2D_Giot-Rothbert-2003-High_Fly2,I2D predictions of protein protein interactions using Giot-Rothbert-2003 Drosophila melanogaster data
+Fly,FlyLow,TRUE,,14605208,I2D_Giot-Rothbert-2003-Low_Fly2,I2D predictions of protein protein interactions using Giot-Rothbert-2003 Drosophila melanogaster data
+Fly,IntAct_Fly,TRUE,,19850723,I2D_IntAct_Fly2,I2D predictions of protein protein interactions using IntAct Drosophila melanogaster data
+Fly,MINT_Fly,TRUE,,11911893,I2D_MINT_Fly2,I2D predictions of protein protein interactions using MINT Drosophila melanogaster data
+Rat,BioGrid_Rat,TRUE,,16381927,I2D_BioGRID_Rat2,I2D predictions of protein protein interactions using BioGRID Rattus norvegicus data
+Rat,BIND_Rat,TRUE,,10871269,I2D_BIND_Rat2,I2D predictions of protein protein interactions using BIND Rattus norvegicus data
+Rat,Fawcett_polarity,FALSE,same source also in human,20357130,I2D_Richier-Fawcett-2010-Polarity_Rat2,
+Rat,I2D-c_Rat,TRUE,I2D's own manual curation,,I2D_Manual_Rat2,
+Rat,IntAct_Rat,TRUE,,19850723,I2D_IntAct_Rat2,I2D predictions of protein protein interactions using IntAct Rattus norvegicus data
+Rat,MINT_Rat,TRUE,,11911893,I2D_MINT_Rat2,I2D predictions of protein protein interactions using MINT Rattus norvegicus data
+Mouse,BioGrid_Mouse,TRUE,,16381927,I2D_BioGRID_Mouse2,I2D predictions of protein protein interactions using BioGRID Mus musculus data
+Mouse,BIND_Mouse,TRUE,,10871269,I2D_BIND_Mouse2,I2D predictions of protein protein interactions using BIND Mus musculus data
+Mouse,Chen_PiwiScreen,TRUE,,19918066,I2D_Chen-Pawson-2009-PiwiScreen_Mouse2,I2D predictions of protein protein interactions using Chen-Pawson-2009 Mus musculus data
+Mouse,I2D-c_Mouse,TRUE,I2D's own manual curation,,I2D_Manual_Mouse2,
+Mouse,IntAct_Mouse,TRUE,,19850723,I2D_IntAct_Mouse2,I2D predictions of protein protein interactions using IntAct Mus musculus data
+Mouse,INNATEDB_Mouse,TRUE,,18766178,I2D_INNATEDB_Mouse2,I2D predictions of protein protein interactions using INNATEDB Mus musculus data
+Mouse,MGI,TRUE,,15707487,I2D_MGI_Mouse2,I2D predictions of protein protein interactions using MGI Mus musculus data
+Mouse,MINT_Mouse,TRUE,,11911893,I2D_MINT_Mouse2,I2D predictions of protein protein interactions using MINT Mus musculus data
+Mouse,WangEScmplx,TRUE,,17093407,I2D_Wang-Orkin-2006-EScmplx_Mouse2,I2D predictions of protein protein interactions using Wang-Orkin-2006 Mus musculus data
+Mouse,WangEScmplxlow,TRUE,,17093407,I2D_Wang-Orkin-2006-EScmplxlow_Mouse2,I2D predictions of protein protein interactions using Wang-Orkin-2006 Mus musculus data
+Mouse,WangEScoIP,TRUE,,17093407,I2D_Wang-Orkin-2006-EScmplxIP_Mouse2,I2D predictions of protein protein interactions using Wang-Orkin-2006 Mus musculus data
+Worm,BioGrid_Worm,TRUE,,16381927,I2D_BioGRID_Worm2,I2D predictions of protein protein interactions using BioGRID Caenorhabditis elegans data
+Worm,BIND_Worm,TRUE,,10871269,I2D_BIND_Worm2,I2D predictions of protein protein interactions using BIND Caenorhabditis elegans data
+Worm,CE_DATA,TRUE,,14704431,I2D_Li-Vidal-2004_CE_DATA_Worm2,I2D predictions of protein protein interactions using Li-Vidal-2004 Caenorhabditis elegans data
+Worm,CORE_1,TRUE,,14704431,I2D_Li-Vidal-2004_CORE_1_Worm2,I2D predictions of protein protein interactions using Li-Vidal-2004 Caenorhabditis elegans data
+Worm,CORE_2,TRUE,,14704431,I2D_Li-Vidal-2004_CORE_2_Worm2,I2D predictions of protein protein interactions using Li-Vidal-2004 Caenorhabditis elegans data
+Worm,IntAct_Worm,TRUE,,19850723,I2D_IntAct_Worm2,I2D predictions of protein protein interactions using IntAct Caenorhabditis elegans data
+Worm,INTEROLOG,TRUE,,14704431,I2D_Li-Vidal-2004_interolog_Worm2,I2D predictions of protein protein interactions using Li-Vidal-2004 Caenorhabditis elegans data
+Worm,LITERATURE,TRUE,,14704431,I2D_Li-Vidal-2004_literature_Worm2,I2D predictions of protein protein interactions using Li-Vidal-2004 Caenorhabditis elegans data
+Worm,MINT_Worm,TRUE,,11911893,I2D_MINT_Worm2,I2D predictions of protein protein interactions using MINT Caenorhabditis elegans data
+Worm,NON_CORE,TRUE,,14704431,I2D_Li-Vidal-2004_non_core_Worm2,I2D predictions of protein protein interactions using Li-Vidal-2004 Caenorhabditis elegans data
+Worm,TewariTGFb,TRUE,,14992718,I2D_Tewari-Vidal-2004_TGFb_Worm2,I2D predictions of protein protein interactions usingTewari-Vidal-2004  Caenorhabditis elegans data
+Yeast,BioGrid_Yeast,TRUE,,16381927,I2D_BioGRID_Yeast2,I2D predictions of protein protein interactions using BioGRID Saccharomyces cerevisiae data
+Yeast,BIND_Yeast,TRUE,,10871269,I2D_BIND_Yeast2,I2D predictions of protein protein interactions using BIND Saccharomyces cerevisiae data
+Yeast,IntAct_Yeast,TRUE,,19850723,I2D_IntAct_Yeast2,I2D predictions of protein protein interactions using IntAct Saccharomyces cerevisiae data
+Yeast,Krogan_Core,TRUE,,16554755,I2D_Krogan-Greenblatt-2006_Core_Yeast2,I2D predictions of protein protein interactions using Krogan-Greenblatt-2006 Saccharomyces cerevisiae data
+Yeast,Krogan_NonCore,TRUE,,16554755,I2D_Krogan-Greenblatt-2006_NonCore_Yeast2,I2D predictions of protein protein interactions using Krogan-Greenblatt-2006 Saccharomyces cerevisiae data
+Yeast,MINT_Yeast,TRUE,,11911893,I2D_MINT_Yeast2,I2D predictions of protein protein interactions using MINT Saccharomyces cerevisiae data
+Yeast,MIPS,TRUE,,16381906,I2D_MIPS_Yeast2,I2D predictions of protein protein interactions using MIPS Saccharomyces cerevisiae data
+Yeast,Tarassov_PCA,TRUE,,18467557,I2D_Tarassov_PCA_Yeast2,I2D predictions of protein protein interactions using Tarassov-Michnick-2008 Saccharomyces cerevisiae data
+Yeast,Yeast_Kinome,TRUE,,16319894,I2D_Ptacek-Snyder-2005_Yeast2,I2D predictions of protein protein interactions using Ptacek-Snyder-2005 Saccharomyces cerevisiae data
+Yeast,YeastHigh,TRUE,,12000970,I2D_vonMering-Bork-2002_High_Yeast2,I2D predictions of protein protein interactions using vonMering-Bork-2002 Saccharomyces cerevisiae data
+Yeast,YeastLow,TRUE,,12000970,I2D_vonMering-Bork-2002_Low_Yeast2,I2D predictions of protein protein interactions using vonMering-Bork-2002 Saccharomyces cerevisiae data
+Yeast,YeastMedium,TRUE,,12000970,I2D_vonMering-Bork-2002_Medium_Yeast2,I2D predictions of protein protein interactions using vonMering-Bork-2002 Saccharomyces cerevisiae data
+Yeast,Yu_GoldStd,TRUE,,18719252,I2D_Yu-Vidal-2008_GoldStd_Yeast2,I2D predictions of protein protein interactions using Yu Gold Standard Saccharomyces cerevisiae data
+Mouse-Human,Jorgensen_EphR,FALSE,dual-organism source?,20007894,I2D_Jorgensen-Pawson-2009_Mouse-Human2,
+Human,BEHRENDS_AUTOPHAGY_HIGH,TRUE,,20562859,I2D_Behrends-Harper-2010-AUTOPHAGY_HIGH_Human2,I2D predictions of protein protein interactions using Behrends-Harper-2010 Homo sapiens data
+Human,BEHRENDS_AUTOPHAGY_LOW,TRUE,,20562859,I2D_Behrends-Harper-2010-AUTOPHAGY_LOW_Human2,I2D predictions of protein protein interactions using Behrends-Harper-2010 Homo sapiens data
+Human,BioGrid,TRUE,,16381927,I2D_BioGRID_Human2,I2D predictions of protein protein interactions using BioGRID Homo sapiens data
+Human,BIND,TRUE,,10871269,I2D_BIND_Human2,I2D predictions of protein protein interactions using BIND Homo sapiens data
+Human,Blagoev,TRUE,,12577067,I2D_Blagoev-Mann-2003_Human2,I2D predictions of protein protein interactions using Blagoev-Mann-2003 Homo sapiens data
+Human,Fawcett_polarity,FALSE,same source also in rat,20357130,I2D_Richier-Fawcett-2010-Polarity_Human2,I2D predictions of protein protein interactions using Richier-Fawcett-2010 Homo sapiens data
+Human,HPRD,TRUE,,14525934,I2D_HPRD_Human2,I2D predictions of protein protein interactions using HPRD Homo sapiens data
+Human,I2D-c,TRUE,i2d's own manual curation,,I2D_Manual,
+Human,IntAct,TRUE,,19850723,I2D_IntAct_Human2,I2D predictions of protein protein interactions using IntAct Homo sapiens data
+Human,INNATEDB,TRUE,,18766178,I2D_INNATEDB_Human2,I2D predictions of protein protein interactions using INNATEDB Homo sapiens data
+Human,JonesErbB1,TRUE,,16273093,I2D_Jones-MacBeath-2006_Human2,I2D predictions of protein protein interactions using Jones-MacBeath-2006 Homo sapiens data
+Human,Jorgensen_EphR,TRUE,"this is also in Human-Mouse, does the organis attribution need to be dual sourced?",20007894,I2D_Jorgensen-Pawson-2009_Human2,I2D predictions of protein protein interactions using Jorgensen-Pawson-2009 Homo sapiens data
+Human,Miller_WntLumier,TRUE,,19888210,I2D_Miller-Attisano-2009_Human2,I2D predictions of protein protein interactions using Miller-Attisano-2009 Homo sapiens data
+Human,MINT,TRUE,,11911893,I2D_MINT_Human2,I2D predictions of protein protein interactions using MINT Homo sapiens data
+Human,MINT_Mouse,FALSE,there's already a MINT_Mouse under mouse!,11911893,,
+Human,Moran_EGFR,TRUE,,19531499,I2D_Tong-Moran-2009-EGFR_Human2,I2D predictions of protein protein interactions using Tong-Moran-2009 Homo sapiens data
+Human,MYTH_EGFR,TRUE,,20029029,I2D_Deribe-Dikic-2009-EGFR_Human2,I2D predictions of protein protein interactions using Deribe-Dikic-2009 Homo sapiens data
+Human,Pawson1,TRUE,,16055720,I2D_Ingham-Pawson-2005_Human2,I2D predictions of protein protein interactions using Ingham-Pawson-2005 Homo sapiens data
+Human,Pawson2,TRUE,,16678097,I2D_Wells-Pawson-2006_Human2,I2D predictions of protein protein interactions using Wells-Pawson-2006 Homo sapiens data
+Human,Pawson3,TRUE,,16525419,I2D_Jones-Pawson-2006_Human2,I2D predictions of protein protein interactions using Jones-Pawson-2006 Homo sapiens data
+Human,Pawson4,TRUE,,16982700,I2D_Smith-Pawson-2006_Human2,I2D predictions of protein protein interactions using Smith-Pawson-2006 Homo sapiens data
+Human,ShawnLi,TRUE,,17474147,I2D_Wu-Li-2007_Human2,I2D predictions of protein protein interactions using Wu-Li-2007 Homo sapiens data
+Human,SOURAV_MAPK_HIGH,TRUE,,20936779,I2D_Bandyopadhyay-Ideker-2010-MAPK_HIGH_Human2,I2D predictions of protein protein interactions using Bandyopadhyay-Ideker-2010 Homo sapiens data
+Human,SOURAV_MAPK_LOW,TRUE,,20936779,I2D_Bandyopadhyay-Ideker-2010-MAPK_LOW_Human2,I2D predictions of protein protein interactions using Bandyopadhyay-Ideker-2010 Homo sapiens data
+Human,StelzlHigh,TRUE,,16169070,I2D_Stelzl-Wanker-2005_High_Human2,I2D predictions of protein protein interactions using Stelzl-Wanker-2005 Homo sapiens data
+Human,StelzlLow,FALSE,to be combined,16169070,,
+Human,StelzlMedium,FALSE,to be combined,16169070,,
+Human,VidalHuman_core,TRUE,,16189514,I2D_Rual-Vidal-2004-core_Human2,I2D predictions of protein protein interactions using Rual-Vidal-2004 Homo sapiens data
+Human,VidalHuman_non_core,TRUE,,16189514,I2D_Rual-Vidal-2004-non_core_Human2,I2D predictions of protein protein interactions using Rual-Vidal-2004 Homo sapiens data
+Human,WranaHigh,FALSE,to be combined,15761153,,
+Human,WranaLow,FALSE,to be combined,15761153,,
+Human,WranaMedium,FALSE,to be combined,15761153,,
+Human,StelzlLowMed,TRUE,combined from Stelzl low/medium,16169070,I2D_Stelzl-Wanker-2005_Low_Medium_Human2,I2D predictions of protein protein interactions using Stelzl-Wanker-2005 Homo sapiens data
+Human,WranaGroup,TRUE,combined from Wrana low/medium/high,15761153,I2D_Barrios-Rodiles-Wrana-2005_Human2,I2D predictions of protein protein interactions using Barrios-Rodiles-Wrana-2005 Homo sapiens data
+All,under_threshold,TRUE,combined from small networks,,I2D_small_scale,I2D predictions combined small-scale datasets

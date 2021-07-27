@@ -1,0 +1,43 @@
+The biogrid parsing scripts were originally written by Sara. I've made some slight changes to them for our
+purposes. The original scripts are in the sara directory in case we need them later. 
+
+To use the script start by running: parsebiogrid.py makedir
+This will create the directory structure for each organism: 
+
+biogrid/
+|-- At
+|   |-- processed
+|   |   |-- direct
+|   |   `-- shared_neighbor
+|   `-- raw
+|-- Ce
+|   |-- processed
+|   |   |-- direct
+|   |   `-- shared_neighbor
+|   `-- raw
+|-- Dm
+|   |-- processed
+|   |   |-- direct
+|   |   `-- shared_neighbor
+|   `-- raw
+|-- Hs
+|   |-- processed
+|   |   |-- direct
+|   |   `-- shared_neighbor
+|   `-- raw
+|-- Mm
+|   |-- processed
+|   |   |-- direct
+|   |   `-- shared_neighbor
+|   `-- raw
+`-- Sc
+    |-- processed
+    |   |-- direct
+    |   `-- shared_neighbor
+    `-- raw
+
+Dowload the version of biogrid to be used and copy the raw files into the raw directory under each organism
+directory.
+
+Once the raw files have been copied, you can process them by running: parsebiogrid.py process
+All processed files will be stored under each organism's processed/direct directory. 

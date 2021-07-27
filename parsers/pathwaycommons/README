@@ -1,0 +1,9 @@
+For instructions refer to the wiki: 
+http://www.baderlab.org/genemania/GeneManiaOperationalDb/ParsingPathwayCommons
+
+A snapshot of the Pathway Commons data (dated June 29, 2009) is included
+here. The current snapshot can be downloaded from: 
+http://www.pathwaycommons.org/pc-snapshot/tab_delim_network/by_species/
+
+To start parsing just type: ./run.sh
+The output will be stored in out.pubmed and out.source. 

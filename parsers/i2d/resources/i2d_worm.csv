@@ -1,0 +1,56 @@
+Worm,Dataset,Number of interactions in dataset,Datatype,Network Name,PubMed ID for tagging purposes,Comment,Note
+,BIND_Worm,3907,source
+,CE_DATA,273,source
+,CORE_1,407,source
+,CORE_2,708,source
+,IntAct_Worm,687,source
+,INTEROLOG,722,source
+,LITERATURE,60,source
+,MINT_Worm,4640,source
+,NON_CORE,923,source
+,TewariTGFb,61,source
+
+,BIND,691,predicted,I2D_BIND_Human2Worm,,I2D predictions of protein protein interactions for Caenorhabditis elegans using BIND Homo sapiens data
+,BIND_Fly,1258,predicted,I2D_BIND_Fly2Worm,,I2D predictions of protein protein interactions for Caenorhabditis elegans using BIND Drosophila melanogaster data
+,BIND_Mouse,123,predicted,I2D_BIND_Mouse2Worm,,I2D predictions of protein protein interactions for Caenorhabditis elegans using BIND Mus musculus data
+,BIND_Rat,117,predicted,I2D_BIND_Rat2Worm,,I2D predictions of protein protein interactions for Caenorhabditis elegans using BIND Rattus norvegicus data
+,BIND_Yeast,1028,predicted,I2D_BIND_Yeast2Worm,,I2D predictions of protein protein interactions for Caenorhabditis elegans using BIND Saccharomyces cerevisiae data
+,BioGRID_Yeast,1848,predicted,I2D_BioGRID_Yeast2Worm,,I2D predictions of protein protein interactions for Caenorhabditis elegans using BioGRID Saccharomyces cerevisiae data
+,FlyCellCycle,90,predicted,I2D_Stanyon-Finley-2004-CellCycle_Fly2Worm,15575970,I2D predictions of protein protein interactions for Caenorhabditis elegans using Stanyon-Finley-2004 Drosophila melanogaster data
+,FlyEmbryo,164,predicted,I2D_Formstecher-Daviet-2005-Embryo_Fly2Worm,15710747,I2D predictions of protein protein interactions for Caenorhabditis elegans using Formstecher-Daviet-2005 Drosophila melanogaster data
+,FlyHead,9,predicted,I2D_Formstecher-Daviet-2005-Head_Fly2Worm,15710747,I2D predictions of protein protein interactions for Caenorhabditis elegans using Formstecher-Daviet-2005 Drosophila melanogaster data
+,FlyHigh,323,predicted,I2D_Giot-Rothbert-2003-High_Fly2Worm,14605208,I2D predictions of protein protein interactions for Caenorhabditis elegans using Giot-Rothbert-2003 Drosophila melanogaster data
+,FlyLow,851,predicted,I2D_Giot-Rothbert-2003-Low_Fly2Worm,14605208,I2D predictions of protein protein interactions for Caenorhabditis elegans using Giot-Rothbert-2003 Drosophila melanogaster data
+,HPRD,2903,predicted,I2D_HPRD_Human2Worm,,I2D predictions of protein protein interactions for Caenorhabditis elegans using HPRD Homo sapiens data
+,IntAct,1297,predicted,I2D_IntAct_Human2Worm,,I2D predictions of protein protein interactions for Caenorhabditis elegans using IntAct Homo sapiens data
+,IntAct_Fly,124,predicted,I2D_IntAct_Fly2Worm,,I2D predictions of protein protein interactions for Caenorhabditis elegans using IntAct Drosophila melanogaster data
+,IntAct_Mouse,247,predicted,I2D_IntAct_Mouse2Worm,,I2D predictions of protein protein interactions for Caenorhabditis elegans using IntAct Mus musculus data
+,IntAct_Rat,33,predicted,I2D_IntAct_Rat2Worm,,I2D predictions of protein protein interactions for Caenorhabditis elegans using IntAct Rattus norvegicus data
+,IntAct_Yeast,6923,predicted,I2D_IntAct_Yeast2Worm,,I2D predictions of protein protein interactions for Caenorhabditis elegans using IntAct Saccharomyces cerevisiae data
+,Krogan_Core,1130,predicted,I2D_Krogan-Greenblatt-2006_Core_Yeast2Worm,16554755,I2D predictions of protein protein interactions for Caenorhabditis elegans using Krogan-Greenblatt-2006 Saccharomyces cerevisiae data
+,Krogan_NonCore,945,predicted,I2D_Krogan-Greenblatt-2006_NonCore_Yeast2Worm,16554755,I2D predictions of protein protein interactions for Caenorhabditis elegans using Krogan-Greenblatt-2006 Saccharomyces cerevisiae data
+,MGI,57,predicted,I2D_MGI_Mouse2Worm,,I2D predictions of protein protein interactions for Caenorhabditis elegans using MGI Mus musculus data
+,MINT,804,predicted,I2D_MINT_Human2Worm,,I2D predictions of protein protein interactions for Caenorhabditis elegans using MINT Homo sapiens data
+,MINT_Fly,1368,predicted,I2D_MINT_Fly2Worm,,I2D predictions of protein protein interactions for Caenorhabditis elegans using MINT Drosophila melanogaster data
+,MINT_Yeast,3935,predicted,I2D_MINT_Yeast2Worm,,I2D predictions of protein protein interactions for Caenorhabditis elegans using MINT Saccharomyces cerevisiae data
+,MIPS,655,predicted,I2D_MIPS_Yeast2Worm,,I2D predictions of protein protein interactions for Caenorhabditis elegans using MIPS Saccharomyces cerevisiae data
+,Pawson1,44,predicted,I2D_Ingham-Pawson-2005_Human2Worm,16055720,I2D predictions of protein protein interactions for Caenorhabditis elegans using Ingham-Pawson-2005 Homo sapiens data
+,Pawson3,1,predicted,I2D_Jones-Pawson-2006_Human2Worm,16525419,I2D predictions of protein protein interactions for Caenorhabditis elegans using Jones-Pawson-2006 Homo sapiens data
+,ShawnLi,28,predicted,I2D_Wu-Li-2007_Human2Worm,17474147,I2D predictions of protein protein interactions for Caenorhabditis elegans using Wu-Li-2007 Homo sapiens data
+,StelzlHigh,118,predicted,I2D_Stelzl-Wanker-2005_High_Human2Worm,16169070,I2D predictions of protein protein interactions for Caenorhabditis elegans using Stelzl-Wanker-2005 Homo sapiens data
+,StelzlLow,48,predicted,I2D_Stelzl-Wanker-2005_Low_Human2Worm,16169070,I2D predictions of protein protein interactions for Caenorhabditis elegans using Stelzl-Wanker-2005 Homo sapiens data
+,StelzlMedium,158,predicted,I2D_Stelzl-Wanker-2005_Medium_Human2Worm,16169070,I2D predictions of protein protein interactions for Caenorhabditis elegans using Stelzl-Wanker-2005 Homo sapiens data
+,Tarassov_PCA,361,predicted,I2D_Tarassov_PCA_Yeast2Worm,18467557,I2D predictions of protein protein interactions for Caenorhabditis elegans using Tarassov-Michnick-2008 Saccharomyces cerevisiae data
+,VidalHuman_core,144,predicted,I2D_Rual-Vidal-2004-core_Human2Worm,16189514,I2D predictions of protein protein interactions for Caenorhabditis elegans using Rual-Vidal-2005 Homo sapiens data
+,VidalHuman_non_core,36,predicted,I2D_Rual-Vidal-2004-non_core_Human2Worm,16189514,I2D predictions of protein protein interactions for Caenorhabditis elegans using Rual-Vidal-2005 Homo sapiens data
+,WranaHigh,1,predicted,I2D_Barrios-Rodiles-Wrana-2005-High_Human2Worm,15761153,I2D predictions of protein protein interactions for Caenorhabditis elegans using Barrios-Rodiles-Wrana-2005 Homo sapiens data
+,WranaLow,14,predicted,I2D_Barrios-Rodiles-Wrana-2005-Low_Human2Worm,15761153,I2D predictions of protein protein interactions for Caenorhabditis elegans using Barrios-Rodiles-Wrana-2005 Homo sapiens data
+,WranaMedium,2,predicted,I2D_Barrios-Rodiles-Wrana-2005-Medium_Human2Worm,15761153,I2D predictions of protein protein interactions for Caenorhabditis elegans using Barrios-Rodiles-Wrana-2005 Homo sapiens data
+,Yeast_Kinome,129,predicted,I2D_Ptacek-Snyder-2005_Yeast2Worm,16319894,I2D predictions of protein protein interactions for Caenorhabditis elegans using Ptacek-Snyder-2005 Saccharomyces cerevisiae data
+,YeastHigh,789,predicted,I2D_vonMering-Bork-2002_High_Yeast2Worm,12000970,I2D predictions of protein protein interactions for Caenorhabditis elegans using vonMering-Bork-2002 Saccharomyces cerevisiae data
+,YeastLow,9272,predicted,I2D_vonMering-Bork-2002_Low_Yeast2Worm,12000970,I2D predictions of protein protein interactions for Caenorhabditis elegans using vonMering-Bork-2002 Saccharomyces cerevisiae data
+,YeastMedium,2129,predicted,I2D_vonMering-Bork-2002_Medium_Yeast2Worm,12000970,I2D predictions of protein protein interactions for Caenorhabditis elegans using vonMering-Bork-2002 Saccharomyces cerevisiae data
+,Yu_GoldStd,267,predicted,I2D_Yu-Vidal-2008_GoldStd_Yeast2Worm,18719252,I2D predictions of protein protein interactions for Caenorhabditis elegans using Yu Gold Standard Saccharomyces cerevisiae data
+,WranaGroup,,predicted,I2D_Barrios-Rodiles-Wrana-2005_Human2Worm,15761153,I2D predictions of protein protein interactions for Caenorhabditis elegans using Barrios-Rodiles-Wrana-2005 Homo sapiens data,combined from Wrana high/medium/low
+,StelzlLowMed,,predicted,I2D_Stelzl-Wanker-2005_Human2Worm,16169070,I2D predictions of protein protein interactions for Caenorhabditis elegans using Stelzl-Wanker-2005 Homo sapiens data,combined from Stelzl low/med
+,under_threshold,,predicted,I2D_small_scale,,I2D predictions combined small-scale datasets,combined from all datasets where number of interactions is less than threshold

@@ -1,0 +1,62 @@
+Mouse,Dataset,Number of interactions in dataset,Datatype,Network Name,PubMed ID for tagging purposes,Comment,Note
+,BIND_Mouse,2148,source
+,IntAct_Mouse,2719,source
+,MGI,845,source
+,WangEScmplx,61,source
+,WangEScmplxlow,4,source
+,WangEScoIP,5,source
+
+,BIND,5722,predicted,I2D_BIND_Human2Mouse,,I2D predictions of protein protein interactions for Mus musculus using BIND Homo sapiens data
+,BIND_Fly,1989,predicted,I2D_BIND_Fly2Mouse,,I2D predictions of protein protein interactions for Mus musculus using BIND Drosophila melanogaster data
+,BIND_Rat,633,predicted,I2D_BIND_Rat2Mouse,,I2D predictions of protein protein interactions for Mus musculus using BIND Rattus norvegicus data
+,BIND_Worm,786,predicted,I2D_BIND_Worm2Mouse,,I2D predictions of protein protein interactions for Mus musculus using BIND Caenorhabditis elegans data
+,BIND_Yeast,1488,predicted,I2D_BIND_Yeast2Mouse,,I2D predictions of protein protein interactions for Mus musculus using BIND Saccharomyces cerevisiae data
+,BioGRID_Yeast,2449,predicted,I2D_BioGRID_Yeast2Mouse,,I2D predictions of protein protein interactions for Mus musculus using BioGRID Saccharomyces cerevisiae data
+,CE_DATA,106,predicted,I2D_Li-Vidal-2004_CE_DATA_Worm2Mouse,14704431,I2D predictions of protein protein interactions for Mus musculus using Li-Vidal-2004 Caenorhabditis elegans data
+,CORE_1,95,predicted,I2D_Li-Vidal-2004_CORE_1_Worm2Mouse,14704431,I2D predictions of protein protein interactions for Mus musculus using Li-Vidal-2004 Caenorhabditis elegans data
+,CORE_2,145,predicted,I2D_Li-Vidal-2004_CORE_2_Worm2Mouse,14704431,I2D predictions of protein protein interactions for Mus musculus using Li-Vidal-2004 Caenorhabditis elegans data
+,FlyCellCycle,199,predicted,I2D_Stanyon-Finley-2004-CellCycle_Fly2Mouse,15575970,I2D predictions of protein protein interactions for Mus musculus using Stanyon-Finley-2004 Drosophila melanogaster data
+,FlyEmbryo,294,predicted,I2D_Formstecher-Daviet-2005-Embryo_Fly2Mouse,15710747,I2D predictions of protein protein interactions for Mus musculus using Formstecher-Daviet-2005 Drosophila melanogaster data
+,FlyHead,14,predicted,I2D_Formstecher-Daviet-2005-Head_Fly2Mouse,15710747,I2D predictions of protein protein interactions for Mus musculus using Formstecher-Daviet-2005 Drosophila melanogaster data
+,FlyHigh,497,predicted,I2D_Giot-Rothbert-2003-High_Fly2Mouse,14605208,I2D predictions of protein protein interactions for Mus musculus using Giot-Rothbert-2003 Drosophila melanogaster data
+,FlyLow,1364,predicted,I2D_Giot-Rothbert-2003-Low_Fly2Mouse,14605208,I2D predictions of protein protein interactions for Mus musculus using Giot-Rothbert-2003 Drosophila melanogaster data
+,HPRD,30515,predicted,I2D_HPRD_Human2Mouse,,I2D predictions of protein protein interactions for Mus musculus using HPRD Homo sapiens data
+,IntAct,10232,predicted,I2D_IntAct_Human2Mouse,,I2D predictions of protein protein interactions for Mus musculus using IntAct Homo sapiens data
+,IntAct_Fly,238,predicted,I2D_IntAct_Fly2Mouse,,I2D predictions of protein protein interactions for Mus musculus using IntAct Drosophila melanogaster data
+,IntAct_Rat,853,predicted,I2D_IntAct_Rat2Mouse,,I2D predictions of protein protein interactions for Mus musculus using IntAct Rattus norvegicus data
+,IntAct_Worm,233,predicted,I2D_IntAct_Worm2Mouse,,I2D predictions of protein protein interactions for Mus musculus using IntAct Caenorhabditis elegans data
+,IntAct_Yeast,9052,predicted,I2D_IntAct_Yeast2Mouse,,I2D predictions of protein protein interactions for Mus musculus using IntAct Saccharomyces cerevisiae data
+,INTEROLOG,536,predicted,I2D_Li-Vidal-2004_interolog_Worm2Mouse,14704431,I2D predictions of protein protein interactions for Mus musculus using Li-Vidal-2004 Caenorhabditis elegans data
+,JonesErbB1,134,predicted,I2D_Jones-MacBeath-2006_Human2Mouse,16273093,I2D predictions of protein protein interactions for Mus musculus using Jones-MacBeath-2006 Homo sapiens data
+,Krogan_Core,1427,predicted,I2D_Krogan-Greenblatt-2006_Core_Yeast2Mouse,16554755,I2D predictions of protein protein interactions for Mus musculus using Krogan-Greenblatt-2006 Saccharomyces cerevisiae data
+,Krogan_NonCore,1182,predicted,I2D_Krogan-Greenblatt-2006_NonCore_Yeast2Mouse,16554755,I2D predictions of protein protein interactions for Mus musculus using Krogan-Greenblatt-2006 Saccharomyces cerevisiae data
+,LITERATURE,11,predicted,I2D_Li-Vidal-2004-literature_Worm2Mouse,14704431,I2D predictions of protein protein interactions for Mus musculus using Li-Vidal-2004 Caenorhabditis elegans data
+,MINT,8771,predicted,I2D_MINT_Human2Mouse,,I2D predictions of protein protein interactions for Mus musculus using MINT Homo sapiens data
+,MINT_Fly,2243,predicted,I2D_MINT_Fly2Mouse,,I2D predictions of protein protein interactions for Mus musculus using MINT Drosophila melanogaster data
+,MINT_Worm,830,predicted,I2D_MINT_Worm2Mouse,,I2D predictions of protein protein interactions for Mus musculus using MINT Caenorhabditis elegans data
+,MINT_Yeast,4913,predicted,I2D_MINT_Yeast2Mouse,,I2D predictions of protein protein interactions for Mus musculus using MINT Saccharomyces cerevisiae data
+,MIPS,986,predicted,I2D_MIPS_Yeast2Mouse,,I2D predictions of protein protein interactions for Mus musculus using MIPS Saccharomyces cerevisiae data
+,NON_CORE,163,predicted,I2D_Li-Vidal-2004_NON_CORE_Worm2Mouse,14704431,I2D predictions of protein protein interactions for Mus musculus using Li-Vidal-2004 Caenorhabditis elegans data
+,Pawson1,220,predicted,I2D_Ingham-Pawson-2005_Human2Mouse,16055720,I2D predictions of protein protein interactions for Mus musculus using Ingham-Pawson-2005 Homo sapiens data
+,Pawson2,11,predicted,I2D_Wells-Pawson-2006_Human2Mouse,16678097,I2D predictions of protein protein interactions for Mus musculus using Wells-Pawson-2006 Homo sapiens data
+,Pawson3,2,predicted,I2D_Jones-Pawson-2006_Human2Mouse,16525419,I2D predictions of protein protein interactions for Mus musculus using Jones-Pawson-2006 Homo sapiens data
+,Pawson4,9,predicted,I2D_Smith-Pawson-2006_Human2Mouse,16982700,I2D predictions of protein protein interactions for Mus musculus using Smith-Pawson-2006 Homo sapiens data
+,ShawnLi,467,predicted,I2D_Wu-Li-2007_Human2Mouse,17474147,I2D predictions of protein protein interactions for Mus musculus using Wu-Li-2007 Homo sapiens data
+,StelzlHigh,660,predicted,I2D_Stelzl-Wanker-2005_High_Human2Mouse,16169070,I2D predictions of protein protein interactions for Mus musculus using Stelzl-Wanker-2005 Homo sapiens data
+,StelzlLow,393,predicted,I2D_Stelzl-Wanker-2005_Low_Human2Mouse,16169070,I2D predictions of protein protein interactions for Mus musculus using Stelzl-Wanker-2005 Homo sapiens data
+,StelzlMedium,1195,predicted,I2D_Stelzl-Wanker-2005_Medium_Human2Mouse,16169070,I2D predictions of protein protein interactions for Mus musculus using Stelzl-Wanker-2005 Homo sapiens data
+,Tarassov_PCA,433,predicted,I2D_Tarassov_PCA_Yeast2Mouse,18467557,I2D predictions of protein protein interactions for Mus musculus using Tarassov-Michnick-2008 Saccharomyces cerevisiae data
+,TewariTGFb,10,predicted,I2D_Tewari-Vidal-2004_Worm2Mouse,14992718,I2D predictions of protein protein interactions for Mus musculus using Tewari-Vidal-2004 Caenorhabditis elegans data
+,VidalHuman_core,1737,predicted,I2D_Rual-Vidal-2004-core_Human2Mouse,16189514,I2D predictions of protein protein interactions for Mus musculus using Rual-Vidal-2005 Homo sapiens data
+,VidalHuman_non_core,516,predicted,I2D_Rual-Vidal-2004-non_core_Human2Mouse,16189514,I2D predictions of protein protein interactions for Mus musculus using Rual-Vidal-2005 Homo sapiens data
+,WranaHigh,23,predicted,I2D_Barrios-Rodiles-Wrana-2005-High_Human2Mouse,15761153,I2D predictions of protein protein interactions for Mus musculus using Barrios-Rodiles-Wrana-2005 Homo sapiens data
+,WranaLow,337,predicted,I2D_Barrios-Rodiles-Wrana-2005-Low_Human2Mouse,15761153,I2D predictions of protein protein interactions for Mus musculus using Barrios-Rodiles-Wrana-2005 Homo sapiens data
+,WranaMedium,91,predicted,I2D_Barrios-Rodiles-Wrana-2005-Medium_Human2Mouse,15761153,I2D predictions of protein protein interactions for Mus musculus using Barrios-Rodiles-Wrana-2005 Homo sapiens data
+,Yeast_Kinome,298,predicted,I2D_Ptacek-Snyder-2005_Yeast2Mouse,16319894,I2D predictions of protein protein interactions for Mus musculus using Ptacek-Snyder-2005 Saccharomyces cerevisiae data
+,YeastHigh,949,predicted,I2D_vonMering-Bork-2002_High_Yeast2Mouse,12000970,I2D predictions of protein protein interactions for Mus musculus using vonMering-Bork-2002 Saccharomyces cerevisiae data
+,YeastLow,12666,predicted,I2D_vonMering-Bork-2002_Low_Yeast2Mouse,12000970,I2D predictions of protein protein interactions for Mus musculus using vonMering-Bork-2002 Saccharomyces cerevisiae data
+,YeastMedium,2756,predicted,I2D_vonMering-Bork-2002_Medium_Yeast2Mouse,12000970,I2D predictions of protein protein interactions for Mus musculus using vonMering-Bork-2002 Saccharomyces cerevisiae data
+,Yu_GoldStd,341,predicted,I2D_Yu-Vidal-2008_GoldStd_Yeast2Mouse,18719252,I2D predictions of protein protein interactions for Mus musculus using Yu Gold Standard Saccharomyces cerevisiae data
+,WranaGroup,,predicted,I2D_Barrios-Rodiles-Wrana-2005-Human2Mouse,15761153,I2D predictions of protein protein interactions for Mus musculus using Barrios-Rodiles-Wrana-2005 Homo sapiens data,combined from Wrana high/medium/low
+,StelzlLowMed,,predicted,I2D_Stelzl-Wanker-2005_Human2Mouse,16169070,I2D predictions of protein protein interactions for Mus musculus using Stelzl-Wanker-2005 Homo sapiens data,combined from Stelzl low/med
+,under_threshold,,predicted,I2D_small_scale,,I2D predictions combined small-scale datasets,combined from all datasets where number of interactions is less than threshold

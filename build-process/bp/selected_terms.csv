@@ -1,0 +1,124 @@
+Term,Count,Species,"Suggested Tag (commas separate multiple tags, ? indicates uncertainty)",Confidence that term should be included
+Aging,41,All,Aging
+Apoptosis,156,All,Apoptosis
+"Mice, Inbred BALB C",49,Mouse,BALB C,9,,,Stem Cells,72
+"Behavior, Animal",8,Fruitfly,Behavior,3,,,Inflammation,68
+Biological Clocks,15,Fruitfly,Biological Clocks,4,,,Brain,63
+Circadian Rhythm,16,Fruitfly,Biological Clocks,4,,,Lung,45
+Brain,63,All,Brain
+Breast,21,All,Breast
+"Mice, Inbred C57BL",329,Mouse,C57BL,9,,,Lung Neoplasms,41
+"Cell Transformation, Neoplastic",31,Mouse,Cancer,6
+Melanoma,22,All,Cancer
+Neoplasm Metastasis,35,All,Cancer
+Neoplasm Proteins,32,Human,Cancer,8
+Neoplasms,30,All,Cancer
+Oncogenes,28,Human,Cancer,6
+Prostatic Neoplasms,33,All,Cancer
+Recurrence,26,Human,Cancer,4
+"RNA, Neoplasm",47,Human,Cancer,6
+"Tumor Markers, Biological",36,Human,Cancer,7
+Breast Neoplasms,112,All,"Cancer, Breast Cancer"
+6-Mercaptopurine,66,Human,"Cancer, Chemotherapy",5,"From Wikipedia: Mercaptopurine (also called 6-Mercaptopurine, 6-MP or its brand name Purinethol) is an immunosuppressive drug.
+
+It is a thiopurine.[1]  It is used to treat leukemia. It is also used for pediatric non-Hodgkin's lymphoma,[citation needed] polycythemia vera,[citation needed] psoriatic arthritis,[citation needed] and inflammatory bowel disease (such as Crohn's Disease and ulcerative colitis).[2]
+
+It has demonstrated some in vitro effectiveness against Mycobacterium paratuberculosis.[3]"
+Antineoplastic Combined Chemotherapy Protocols,69,Human,"Cancer, Chemotherapy",7
+"Drug Resistance, Neoplasm",108,Human,"Cancer, Chemotherapy",6
+Methotrexate,67,Human,"Cancer, Chemotherapy",5,"From Wikipedia: Methotrexate (rINN) (pronounced /mɛθəˈtrɛkseɪt/), abbreviated MTX and formerly known as amethopterin, is an antimetabolite and antifolate drug used in treatment of cancer and autoimmune diseases. It acts by inhibiting the metabolism of folic acid. Methotrexate replaced the more powerful and toxic antifolate aminopterin, and the two should not be confused with each other."
+"Tumor Cells, Cultured",105,All,"Cancer, Cultured Cells"
+Precursor Cell Lymphoblastic Leukemia-Lymphoma,100,Human,"Cancer, Lymphoma",4
+Lung Neoplasms,41,All,Cancer
+"Gene Expression Regulation, Neoplastic",29,Mouse,"Cancer, Transcription Factors",8
+Cell Line,119,Human,Cell Line,9,,,Neoplasm Metastasis,35
+Cell Line,76,Mouse,Cell Line,9,,,Testis,33
+Hela Cells,31,Human,Cell Line,7,,,Neoplasms,30
+"Cell Line, Tumor",180,Human,"Cell Line, Cancer",9,,,Prostatic Neoplasms,33
+Cell Cycle,55,Human,Cell Proliferation,6,,,Skin,26
+Cell Differentiation,85,Human,Cell Proliferation,6,,,Kidney,25
+Cell Differentiation,182,Mouse,Cell Proliferation,6,,,Melanoma,22
+Cell Proliferation,66,Human,Cell Proliferation,7,,,Breast,21
+Cell Proliferation,69,Mouse,Cell Proliferation,7
+Cell Survival,35,Mouse,Cell Proliferation,6
+Cytokines,41,Human,Cell Signalling,3
+Chromatin Immunoprecipitation,8,Plant,Chromatin Immunoprecipitation,6
+"Cells, Cultured",185,Human,Cultured Cells,8
+"Cells, Cultured",143,Mouse,Cultured Cells,8
+"Cells, Cultured",20,Fruitfly,Cultured Cells,8
+"Mice, Knockout",228,Mouse,Knockout,8
+"Animals, Newborn",31,Mouse,Development
+"Embryo, Mammalian",37,Mouse,Development,7
+"Embryo, Nonmammalian",5,Fruitfly,Development,7
+"Embryo, Nonmammalian",1,Worm,Development,7
+Larva,6,Fruitfly,Development,7
+"Gene Expression Regulation, Developmental",149,Mouse,"Development, Transcription Factors",5
+"Gene Expression Regulation, Developmental",12,Plant,"Development, Transcription Factors",5
+"Gene Expression Regulation, Developmental",4,Worm,"Development, Transcription Factors",5
+"Disease Models, Animal",90,Mouse,Disease,7
+Disease Progression,36,Human,Disease,7
+Plant Diseases,13,Plant,Disease,8
+Endothelial Cells,31,Human,Endothelial Cells,6
+Epithelial Cells,53,Human,Epithelial Cells,6
+Fibroblasts,39,Human,Fibroblasts,7
+Fibroblasts,32,Mouse,Fibroblasts,7
+Flowers,15,Plant,Flowers,8
+Abscisic Acid,11,Plant,Hormones,5
+Cyclopentanes,11,Plant,Hormones,5
+Cytokinins,,Plant,Hormones,,Sylva's addition
+Ethylenes,9,Plant,Hormones,6
+Gibberellins,,Plant,Hormones,,Sylva's addition
+Indoleacetic Acids,19,Plant,Hormones,6
+Oxylipins,11,Plant,Hormones,5
+Plant Growth Regulators,19,Plant,Hormones,8,"MeSH scope note: ""Any of the hormones produced naturally in plants and active in controlling growth and other functions."""
+Immunity,2,Worm,Immune System,3
+Immunohistochemistry,54,Human,Immune System,4
+Inflammation,38,Human,Immune System,7
+Inflammation,30,Mouse,Immune System,7
+Inflammation,68,Unknown,Immune System
+Interferon-gamma,26,Human,Immune System,7
+Macrophages,41,Mouse,Immune System,5
+T-Lymphocytes,42,Mouse,Immune System,5
+Kidney,25,Unknown,Kidney
+Plant Leaves,17,Plant,Leaves,9
+Light,10,Plant,Light,,"MeSH scope note: ""That portion of the electromagnetic spectrum in the visible, ultraviolet, and infrared range."""
+Liver,66,Mouse,Liver,9
+Liver,75,Unknown,Liver
+Green Fluorescent Proteins,5,Worm,Localization,6
+In Situ Hybridization,45,Mouse,Localization,4
+Lung,45,All,Lung
+Lipid Metabolism,30,Mouse,Metabolism,5
+Motor Activity,7,Fruitfly,Motor Activity,4
+Muscle Contraction,2,Worm,Muscle,7
+"Muscle, Skeletal",36,Human,Muscle,8
+"Muscle, Skeletal",52,Mouse,Muscle,8
+Muscles,2,Worm,Muscle,4
+Neuromuscular Junction,2,Worm,"Muscle, Nervous System",4
+Motor Neurons,2,Worm,Nervous System,4
+Nerve Tissue Proteins,62,Mouse,Nervous System,7
+Neurons,38,Mouse,Nervous System,8
+Neurons,11,Fruitfly,Nervous System,8
+Neurons,1,Worm,Nervous System,8
+Pregnancy,72,All,Pregnancy
+Ovary,6,Fruitfly,Ovary,4
+Plant Roots,13,Plant,Roots,9
+Seedling,13,Plant,Seedling,6
+Germination,12,Plant,Seeds,7
+Seeds,10,Plant,Seeds,8
+Signal Transduction,174,Human,Signal Transduction,7
+Signal Transduction,162,Mouse,Signal Transduction,7
+Signal Transduction,30,Plant,Signal Transduction,7
+Signal Transduction,2,Worm,Signal Transduction,7
+Skin,26,Unknown,Skin
+Stem Cells,49,Mouse,Stem Cells,8
+Stem Cells,72,Unknown,Stem Cells
+Embryonic Stem Cells,29,Mouse,"Stem Cells, Development",4
+Stromal Cells,28,Human,Stromal Cells,4,,,Gary's list from the 'combined' worksheet
+Testis,28,Mouse,Testis,7
+Testis,33,Unknown,Testis
+Time Factors,76,Mouse,Time Series,3
+Time Factors,10,Plant,Time Series,3,"MeSH scope note: ""Elements of limited time intervals, contributing to particular results or situations.""",,Apoptosis,156
+DNA-Binding Proteins,64,Mouse,Transcription Factors,8
+Transcription Factors,88,Human,Transcription Factors,5
+Transcription Factors,136,Mouse,Transcription Factors,5
+Transcription Factors,25,Fruitfly,Transcription Factors,5
