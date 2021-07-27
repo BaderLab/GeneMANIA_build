@@ -31,23 +31,23 @@ mkdir $DATADIR/Work
 
 cd /home/gmbuild/ensembl_code/identifier-mapper-perl
 
-./idmapper.pl $DATADIR/Work tetrahymena_thermophila Tt 19
+./idmapper.pl $DATADIR/Work saccharomyces_cerevisiae Sc 12
 
 #add the protein domain download here so that we keep all perl dependcies together
-./1.export_spd_from_ensembl.sh $ensembl_version spd_tetra.cfg
+./1.export_spd_from_ensembl.sh $ensembl_version spd_yeast.cfg
 
 #cp the shared protein domains to same place as the mapping directory
 cp -r spd $DATADIR/Work/spd
 
 #If you are using any of the species present in main GeneMANIA you might want to upcomment the below.  It downloades static networks for Human, Mouse, Fly, ... present in GeneMANIA - it requires wget which unfortunately was not installed on the docker.
 
-#cd $DATADIR/Work
+cd $DATADIR/Work
 
 #apt update && apt upgrade
 #apt install wget
 
 #get the static Genemania network data from download.baderlab.org
-#wget http://download.baderlab.org/GeneMANIA/data_build/GeneMANIA_static.tar.gz 
+wget http://download.baderlab.org/GeneMANIA/data_build/GeneMANIA_static.tar.gz 
 
-#tar -xzvf GeneMANIA_static.tar.gz
+tar -xzvf GeneMANIA_static.tar.gz
 
