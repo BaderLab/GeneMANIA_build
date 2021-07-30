@@ -13,8 +13,11 @@ function get_version {
 
 
 function static_version {
-        
-	echo "27062020" > ${SRCDB}/version/irefindex.txt
+      if [[ ! -d "$SRCDB/version" ]]; then
+	      mkdir $SRCDB/version
+      fi
+
+	echo "27062021" > ${SRCDB}/version/irefindex.txt
 }
 
 function download_static_data {
@@ -24,7 +27,7 @@ function download_static_data {
 
 	echo "URL [$URL]"
         
-	FILE="iref_v17_July2020.tar.gz"
+	FILE="iref_v17_July2021.tar.gz"
 	
 	echo "wget --verbose ${URL}/${FILE} -O ${iref}/${FILE}"
 	wget --verbose ${URL}/${FILE} -O ${iref}/${FILE}
