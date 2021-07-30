@@ -17,7 +17,7 @@ function static_version {
 	      mkdir $SRCDB/version
       fi
 
-	echo "27062021" > ${SRCDB}/version/irefindex.txt
+	echo "27062020" > ${SRCDB}/version/irefindex.txt
 }
 
 function download_static_data {
